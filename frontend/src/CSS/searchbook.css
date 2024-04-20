@@ -1,0 +1,77 @@
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
+.search-button {
+
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  position: relative; /* Make the container relative */
+  margin-top: 15px;
+}
+
+.search-result {
+  background-color: rgba(253, 253, 253, 0.5);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  padding: 10px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.book-title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.book-author {
+  margin-bottom: 5px;
+}
+
+.book-thumbnail {
+  width: auto;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.add-to-shelf-button {
+  margin-top: auto; /* Push the button to the bottom */
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-shelf-button:hover {
+  background-color: #218838;
+}
+
+
+/* Styles for loading state */
+.loading {
+  opacity: 0.5; /* Dim the content when loading */
+}
+

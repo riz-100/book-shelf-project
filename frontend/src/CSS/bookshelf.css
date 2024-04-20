@@ -1,0 +1,93 @@
+ .bookshelf-container {
+  margin: 0 auto;
+  padding: 20px;
+  background: url(C:\Users\rizwa\OneDrive\Desktop\WebDevelopmentUpgrad\book-shelf\frontend\public\img1.jpg);
+background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.bookshelf-title{
+  background-color: rgba(228, 227, 253, 0.6);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  
+
+}
+
+.bookshelf-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Style for individual bookshelf items */
+.bookshelf-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  width: 300px;
+  background-color: rgba(253, 253, 253, 0.5)
+}
+
+.bookshelf-details {
+  padding: 10px;
+  z-index: 1;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  background-color: rgba(11, 39, 255, 0.6); /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add button border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  text-decoration: none; /* Remove default link underline */
+  margin-left: 10px;
+}
+.link:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+
+
+
+.message{
+  font-weight: bold;
+  position: fixed;
+  left: 35vw;
+  top:30px;
+  width: 300px;
+  color: black;
+  background: rgba(11, 39, 255, 0.6);
+  padding: 5px;
+  z-index: 100;
+  width: fit-content;
+}
+
+.hide-message-button {
+  background-color: #5936f4;
+  color: white;
+  border: none;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  margin-left: 10px; /* Adjust as needed */
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hide-message-button:hover {
+  background-color: #7665f5;
+}

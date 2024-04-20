@@ -1,0 +1,22 @@
+.review-component {
+    margin-bottom: 20px;
+  }
+  
+  .review-textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+  
+  .submit-review-button {
+    padding: 8px 20px;
+    background-color: #007bff; /* Blue color for button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-review-button:hover {
+    background-color: #0056b3;
+  }

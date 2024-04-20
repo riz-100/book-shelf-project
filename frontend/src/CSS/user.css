@@ -1,0 +1,50 @@
+/* user.css */
+
+.user-container {
+    margin: 0 auto;
+  padding: 20px;
+  background: url(C:\Users\rizwa\OneDrive\Desktop\WebDevelopmentUpgrad\book-shelf\frontend\public\img1.jpg);
+background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+  }
+
+  .user-container h1, span{
+    color: aliceblue;
+  }
+  
+  .user-details {
+    
+    color: aliceblue;
+    
+    padding: 5px;
+    
+  }
+
+  .reviewed-books-container{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  
+  .users-book-details{
+    color: aliceblue;
+    
+    padding: 5px;
+    
+  }
+
+  .logout-btn{
+    padding: 8px 20px;
+    background-color: #007bff; /* Blue color for button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    
+   
+  }
+  
+  

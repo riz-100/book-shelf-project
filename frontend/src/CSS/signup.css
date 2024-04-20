@@ -1,0 +1,57 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(C:\Users\rizwa\OneDrive\Desktop\WebDevelopmentUpgrad\book-shelf\frontend\public\img1.jpg);
+  background-size: contain;
+}
+  
+  .signup-form {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(3, 3, 7, 0.6);
+  }
+
+  .signup-form h2{
+    margin-bottom: 20px;
+  color: #ccc;
+
+  }
+  
+  .signup-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-link{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,88 @@
+.bookshelf-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(245, 248, 232);
+
+    transition: transform 0.3s ease;
+    
+  }
+
+  .bookshelf-item:hover{
+    transform: translateY(-5px);
+  }
+
+  
+  
+  .bookshelf-details {
+    justify-content: space-between;
+    overflow: hidden;
+    z-index: 1;
+    display: grid;
+    justify-content: space-evenly;
+  }
+  
+  .bookshelf-details h2 {
+    color: black;
+    font-size: 18px;
+    margin-top: 0;
+    height: 25px;
+    overflow: hidden;
+  }
+  
+  .bookshelf-details h2:hover {
+    position: relative;
+   overflow: visible;
+   z-index: 1;
+  }
+
+
+  .bookshelf-details span {
+   
+    position: relative;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    z-index: 0;
+
+  }
+
+  .bookshelf-item img {
+    width: auto;
+    height: 150px;
+    display: block;
+  }
+  
+  .rating {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black; /* Orange color for rating */
+  }
+  
+  .book-btn{
+    padding: 8px 20px;
+    background-color: #007bff; /* Blue color for button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .hide-btn{
+    visibility: hidden;
+  }
+
+  
+  
+  
+ 
+  
+    
+  
