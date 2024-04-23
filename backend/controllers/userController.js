@@ -5,7 +5,7 @@ const jwtExpireTime = 24 * 60 * 60;
 
 exports.registerUser = (req, res) => {
   User.findOne({
-    email: req.body.email,
+    email: req.body.email.toLowerCase(),
   }).then((user) => {
     if (user) {
       return res.status(400).json({
@@ -14,7 +14,7 @@ exports.registerUser = (req, res) => {
     } else {
       const newUser = new User({
         name: req.body.name,
-        email: req.body.email,
+        email: req.body.email.toLowerCase(),
         password: req.body.password,
       });
 
